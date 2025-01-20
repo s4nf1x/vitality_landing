@@ -1,0 +1,50 @@
+.slider-section {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.testimonials-slider {
+  .swiper-slide-prev {
+    opacity: 0;
+  }
+}
+
+.swiper-slide {
+  transition: 0.3s;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px;
+  background-image: url(../img/icons/swiper-button-arrow-active.svg);
+  border: 1px solid $--color-second;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.swiper-button-disabled {
+  background-image: url(../img/icons/swiper-button-arrow.svg);
+  border-color: $--color-grey-fourth;
+}
+
+.swiper-button-next {
+
+  transform: scale(-1);
+}
+
+.swiper-button-prev {
+  right: 60px;
+  left: unset;
+}
+

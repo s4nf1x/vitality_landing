@@ -1,0 +1,49 @@
+.about-block {
+  margin: 160px 0 150px;
+
+
+  .about-block-wrapper {
+    padding: 52px 50px;
+    background-color: $--color-second;
+    border-radius: 10px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    color: $--color-white;
+    margin-bottom: 50px;
+  }
+
+  .title-wrapper {
+
+    h2 {
+      color: $--color-white;
+      max-width: 90%;
+    }
+  }
+
+  .btn {
+    color: $--color-second;
+
+    &:hover {
+      background-color: $--color-default;
+      color: $--color-white;
+    }
+  }
+
+  h3 {
+    margin: 40px 0 0;
+    color: $--color-white;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  p {
+    color: $--color-white;
+  }
+
+}

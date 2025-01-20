@@ -1,0 +1,40 @@
+.content-block-section {
+  margin: 120px 0 150px;
+
+  .content-block-image {
+    background-image: url(../img/content-block-decor.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 460px;
+    background-color: #dddcdb;
+    height: 199px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+
+    img {
+      height: 282px;
+      width: 100%;
+      max-width: 307px;
+      object-fit: cover;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  .content-block-info {
+    padding-left: 100px;
+    margin-top: -10px;
+
+    .title-wrapper {
+      margin-bottom: 5px;
+
+      h2 {
+        max-width: 90%;
+      }
+    }
+
+  }
+
+}

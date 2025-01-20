@@ -1,0 +1,27 @@
+.faq {
+  margin: 150px 0;
+
+  .title-wrapper {
+    margin-bottom: 40px;
+    width: 100%;
+
+    h2 {
+      text-align: center;
+    }
+  }
+
+  .accordion {
+    width: calc(100% + 30px);
+    margin: 0 -15px;
+
+    .accordion-column {
+      width: 50%;
+      padding: 0 15px;
+    }
+
+    .accordion-item {
+
+    }
+  }
+
+}
